@@ -1,0 +1,31 @@
+{
+  "name": "greenhouseio",
+  "version": "1.0.0",
+  "description": "A little library for talking to the Greenhouse.io API",
+  "main": "greenhouseio.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pkarl/greenhouseio.git"
+  },
+  "keywords": [
+    "greenhouse",
+    "greenhouseio",
+    "api"
+  ],
+  "author": "Pete Karl II",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pkarl/greenhouseio/issues"
+  },
+  "homepage": "https://github.com/pkarl/greenhouseio",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "request-promise": "^0.4.2"
+  }
+}
