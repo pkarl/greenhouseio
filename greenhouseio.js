@@ -91,25 +91,6 @@ function GreenhouseRequest(company_name, api_key) {
 
   }
 
-  /**
-   * // Example usage:
-   *
-   * gh.request('offices');
-   * gh.request('office', {id: params.id});
-   * gh.request('departments').then(function(response) { res.send(response); });
-   *
-   * // If POST'ing with node/express:
-   *
-   * var bodyParser = require('body-parser');
-   * var multer = require('multer');
-   *
-   * var app = express();
-   * app.use(bodyParser.urlencoded({ extended: false }));
-   *
-   * var gh = ...
-   *
-   * gh.request('application', { postBody: req.body });
-   */
   module.request = function(endpoint, urlParams) {
     return _ghRequest(endpoint, urlParams);
   };
