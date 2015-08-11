@@ -16,7 +16,7 @@ var GreenhouseIO = require('greenhouseio');
 var gh = GreenhouseIO('your company name', 'your API key')
 ```
 
-### get requests
+### GET requests
 ```javascript
 
 gh.request('offices');
@@ -30,7 +30,7 @@ gh.request('departments').then(function(response) {
 
 ```
 
-### post requests (applications)
+### POST requests (applications)
 ```javascript
 
 // NOTE: if you're using express, you must configure it to process the form post body!
@@ -50,7 +50,7 @@ gh.request('application', { postBody: req.body });
 
 ```
 
-### promises / thenables
+### Promises / thenables
 
 ```javascript
 // gh will always returns a thenable
